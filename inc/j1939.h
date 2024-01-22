@@ -1,6 +1,8 @@
 #ifndef ECU_PARSER_J1939_H
 #define ECU_PARSER_J1939_H
-#include "types.h"
+
+#include <types.h>
+
 typedef enum
 {
     ECU_PARSER_J1939_SERVICE_NORMAL_PGNS,

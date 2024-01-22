@@ -1,6 +1,8 @@
 #ifndef ECU_PARSER_OBD2_H
 #define ECU_PARSER_OBD2_H
-#include "types.h"
+
+#include <types.h>
+
 typedef enum
 {
     ECU_PARSER_OBD2_SERVICE_SHOW_CURRENT_DATA = 0x01,

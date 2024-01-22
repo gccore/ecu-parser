@@ -1,6 +1,8 @@
 #ifndef ECU_PARSER_CANOPEN_H
 #define ECU_PARSER_CANOPEN_H
-#include "types.h"
+
+#include <types.h>
+
 typedef enum
 {
     ECU_PARSER_CANOPEN_SERVICE_TRANSMIT_PDO1 = 0b0011,
